@@ -12,7 +12,7 @@ class Yearly_Archives_Widget extends WP_Widget {
     parent::__construct(
       'Yearly_Archives_Widget', 
       __( 'Yearly Archives' ), 
-      array( 'description' => __( 'A yearly list of your site\'s posts, with monthly dropdown.' ) )
+      array( 'description' => __( 'An archive list of the site\'s posts with months separated by year.' ) )
     );
   }
   

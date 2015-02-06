@@ -1,5 +1,5 @@
-Yearly Archive Widget for [WordPress](https://wordpress.org/)
-=============================================================
+Yearly Archives Widget for [WordPress](https://wordpress.org/)
+==============================================================
 
 Overview
 --------
@@ -24,4 +24,4 @@ List Structure
 Compatibility
 -------------
 
-Developed and tested for WordPress 4.0+. This widget likely works for WordPress 3.0 as well, but I haven't done any specific testing with older WordPress versions.
+Developed and tested for WordPress 4.0+. This widget likely works for WordPress 3.0+ as well, but I haven't done any specific testing with older WordPress versions.
