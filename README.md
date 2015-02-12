@@ -13,9 +13,9 @@ List Structure
 
 ```html
 <ul class="yearly-archives">
-  <li class="year-archive">YEAR LINK
+  <li>YEAR LINK
     <ul class="monthly-archives">
-      <li class="month-archive">MONTH LINK</li>
+      <li>MONTH LINK</li>
     </ul>
   </li>
 </ul>

@@ -56,12 +56,12 @@ class Yearly_Archives_Widget extends WP_Widget {
       foreach ( $yearly_archives as $year_key => $year_string ) {
         $year = trim( strip_tags( $year_string ) );
 
-        echo '<li class="year-archive">' . $year_string;
+        echo '<li>' . $year_string;
           echo '<ul class="monthly-archives">';
 
           foreach ( $monthly_archives as $month_key => $month_string ) {
             if ( strpos( $month_string, $year ) > 0 ) {
-              echo '<li class="month-archive">' . $month_string . '</li>';
+              echo '<li>' . $month_string . '</li>';
               unset( $monthly_archives[$month_key] );
             }
           }
